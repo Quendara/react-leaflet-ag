@@ -1,0 +1,58 @@
+h1, p {
+  font-family: Lato;
+}
+
+		body {
+			padding-bottom: 30px;
+		}
+
+		h1,
+		h2,
+		p {
+			font-family: sans-serif;
+			text-align: center;
+		}
+
+		.leaflet-container {
+			height: 700px;
+			width: 95%;
+			margin: 0 auto;
+		}
+
+    .markerClusterSmall {
+   border-radius: 20px;
+   font-size: 0.6vw;
+   color: #fff;
+   font-weight: 900;
+   font-family: Open Sans;
+   text-transform: uppercase;
+}
+.markerClusterMedium {
+   border-radius: 40px;
+   font-size: 0.6vw;
+   color: #fff;
+   font-weight: 900;
+   font-family: Open Sans;
+   text-transform: uppercase;
+}
+.markerClusterLarge {
+   border-radius: 70px;
+   font-size: 0.6vw;
+   color: #fff;
+   font-weight: 900;
+   font-family: Open Sans;
+   text-transform: uppercase;
+}
+.markerClusterLargeXL {
+   border-radius: 70px;
+   font-size: 0.6vw;
+   color: #fff;
+   font-weight: 900;
+   font-family: Open Sans;
+   text-transform: uppercase;
+}
+.markerClusterLabel {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
