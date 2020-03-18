@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Map, TileLayer, Polyline, Marker, Popup } from "react-leaflet";
-import {  iconPerson  } from './MarkerIcons';
+import {  iconBrief  } from './MarkerIcons';
+import {  iconPost  } from './MarkerIcons';
 
 import MarkerClusterGroup from "react-leaflet-markercluster";
 
@@ -37,7 +38,10 @@ const GeoMap = props => {
       />
 
       {props.locations.map((item, index) => (
-        <Marker key={index} position={geoLocToPosition(item.geoPosition)} icon={iconPerson}  >
+
+        
+        
+        <Marker key={index} position={geoLocToPosition(item.geoPosition)} icon={iconBrief}  >
           <Popup>
             {item.keyWord}
             <hr />
