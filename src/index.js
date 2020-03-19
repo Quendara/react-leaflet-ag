@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Hello name={this.state.name} />
+        <h1>Standortfinder</h1>
         <p>
           Performance tests
         </p>

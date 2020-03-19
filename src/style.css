@@ -13,7 +13,7 @@ h1, p {
 			text-align: center;
 		}
 
-		.leaflet-container {
+		.leaflet-container { 
 			height: 700px;
 			width: 95%;
 			margin: 0 auto;
@@ -21,7 +21,7 @@ h1, p {
 
     .markerClusterSmall {
    border-radius: 20px;
-   font-size: 0.6vw;
+   font-size: 1vw;
    color: #fff;
    font-weight: 900;
    font-family: Open Sans;
